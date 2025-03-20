@@ -8,4 +8,5 @@ class MiApp(App):
         yield Footer()
 
 if __name__ == "__main__":
-    MiApp().run()
+    app = MiApp()
+    app.run()
